@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Try changing this value */
+  align-items: center;
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #000;
+  margin: 50px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.box1 { background-color: red; }
+.box2 { background-color: orange; }
+.box3 { background-color: yellow;} 
+.box4 { background-color: green; }
+.box5 { background-color: blue; }
+.box6 { background-color: indigo; }
+.box7 { background-color: violet; }
